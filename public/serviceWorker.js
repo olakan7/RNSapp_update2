@@ -1,0 +1,1 @@
+importScripts('/src/services/notifications/serviceWorker.ts');

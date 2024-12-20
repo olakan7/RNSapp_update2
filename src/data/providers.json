@@ -1,0 +1,81 @@
+{
+  "providers": [
+    {
+      "id": "p1",
+      "name": "Advanced Imaging Center",
+      "address": "123 Medical Plaza",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701",
+      "phone": "(555) 123-4567",
+      "services": ["MRI", "CT Scan", "X-Ray", "Ultrasound"],
+      "specialties": ["Diagnostic Imaging", "Nuclear Medicine"],
+      "acceptingNewPatients": true,
+      "costs": {
+        "mri": { "min": 1200, "max": 3000 },
+        "ct": { "min": 800, "max": 2500 },
+        "xray": { "min": 100, "max": 500 },
+        "ultrasound": { "min": 200, "max": 1000 }
+      }
+    },
+    {
+      "id": "p2",
+      "name": "City Medical Imaging",
+      "address": "456 Healthcare Drive",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601",
+      "phone": "(555) 987-6543",
+      "services": ["MRI", "CT Scan", "X-Ray"],
+      "specialties": ["Diagnostic Imaging"],
+      "acceptingNewPatients": true,
+      "costs": {
+        "mri": { "min": 1100, "max": 2800 },
+        "ct": { "min": 750, "max": 2300 },
+        "xray": { "min": 90, "max": 450 }
+      }
+    },
+    {
+      "id": "p3",
+      "name": "Riverside Radiology",
+      "address": "789 Health Center Blvd",
+      "city": "Aurora",
+      "state": "IL",
+      "zip": "60505",
+      "phone": "(555) 456-7890",
+      "services": ["MRI", "CT Scan", "X-Ray", "Ultrasound"],
+      "specialties": ["Diagnostic Imaging", "Pediatric Imaging"],
+      "acceptingNewPatients": true,
+      "costs": {
+        "mri": { "min": 1300, "max": 3200 },
+        "ct": { "min": 850, "max": 2600 },
+        "xray": { "min": 110, "max": 520 },
+        "ultrasound": { "min": 220, "max": 1100 }
+      }
+    },
+    {
+      "id": "p4",
+      "name": "North Shore Imaging",
+      "address": "321 Lake View Drive",
+      "city": "Evanston",
+      "state": "IL",
+      "zip": "60201",
+      "phone": "(555) 789-0123",
+      "services": ["MRI", "CT Scan", "X-Ray", "Ultrasound"],
+      "specialties": ["Diagnostic Imaging", "Sports Medicine Imaging"],
+      "acceptingNewPatients": true,
+      "costs": {
+        "mri": { "min": 1250, "max": 3100 },
+        "ct": { "min": 825, "max": 2550 },
+        "xray": { "min": 105, "max": 510 },
+        "ultrasound": { "min": 210, "max": 1050 }
+      }
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-03-20",
+    "totalProviders": 4,
+    "regions": ["IL"],
+    "version": "1.0.0"
+  }
+}
